@@ -1,0 +1,53 @@
+/* src/components/ChatWindow.css */
+.chat-window {
+  text-align: center;
+  padding: 20px;
+}
+
+.messages {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.message {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+.message.user {
+  background-color: #daf8cb;
+  text-align: right;
+}
+
+.message.match {
+  background-color: #fff;
+  text-align: left;
+}
+
+.new-message {
+  display: flex;
+  justify-content: center;
+}
+
+.new-message input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.new-message button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+}
