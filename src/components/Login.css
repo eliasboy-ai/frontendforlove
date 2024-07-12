@@ -1,0 +1,39 @@
+/* src/components/Login.css */
+.login-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-page form div {
+  margin-bottom: 10px;
+}
+
+.login-page form input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.login-page form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-page a {
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #2196f3;
+}
