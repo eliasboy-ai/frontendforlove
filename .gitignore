@@ -1,0 +1,31 @@
+# Ignore node_modules directory (npm/Yarn packages)
+node_modules/
+
+# Ignore compiled files for frontend frameworks or libraries
+# For example, if you are using React or Angular
+/build/
+/dist/
+
+# Ignore logs and runtime data
+logs/
+*.log
+npm-debug.log*
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+
+# Ignore Python virtual environment
+.venv/
+
+# Ignore any other generated files or directories
+# Add specific files or directories as needed
